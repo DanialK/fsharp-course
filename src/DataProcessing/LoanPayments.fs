@@ -45,7 +45,7 @@ type LoanPaymentData =
         Gender : Gender
     }
 
-let tryParseDate dateString =
+let tryParseDate (dateString: string) =
     let couldParse, parsedDate = DateTime.TryParse(dateString)
     if couldParse then Some(parsedDate) else None
 

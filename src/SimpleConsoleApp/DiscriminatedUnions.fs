@@ -2,7 +2,7 @@ namespace LanguageOverview
 
 open System
 
-module DescriminatedUion = 
+module DescriminatedUions = 
     type TrafficSignals = 
         | Red
         | Yellow

@@ -1,13 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net461</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LoanPayments.fs" />
     <Compile Include="SeqAndStreams.fs" />
+    <Compile Include="SequenceOps.fs" />
     <Compile Include="DataProcessing.fs" />
-    <None Include="App.config" />
   </ItemGroup>
-  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
